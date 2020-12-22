@@ -1,0 +1,15 @@
+.root {
+    -fx-background-image: url("../backgroundmenu.jpg");
+    -fx-font-weight: bold;
+    }
+
+.button {
+    -fx-background-color: linear-gradient(#caf3fa, #d9f5fa);
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#b4f0fa, #d9f5fa);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 6, 0, 0, 1);
+}
